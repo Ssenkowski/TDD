@@ -13,10 +13,10 @@ RSpec.describe Student do
 
  describe "total number of students" do
    it "should have 2 students total" do
- 	 Student.new("Jimmy", "Jacube")
- 	 Student.new("Jennifer", "Jacube")
+ 	Student.new("Jimmy", "Jacube")
+ 	Student.new("Jennifer", "Jacube")
 
- 	 expect(Student.total_count).to eq(2)
+ 	expect(Student.total_count).to eq(2)
    end
  end
 end
